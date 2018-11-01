@@ -16,7 +16,13 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 public class HelloController {
-
+    /**
+    * @author yuyong
+    * @Description 添加注释
+    * @param []
+    * @return java.lang.String
+    * @date 2018/11/1 16:48
+    */
     @RequestMapping("/hello")
     public String hello(){
         return "你好，我是梅西";
