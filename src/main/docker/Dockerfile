@@ -9,7 +9,7 @@ ADD docker-0.0.1-SNAPSHOT.jar app.jar
 RUN bash -c 'touch /app.jar'
 
 # 开放8080端口
-EXPOSE 8080
+EXPOSE 9291
 
 # 配置容器启动后执行的命令
 ENTRYPOINT ["java","-jar","/app.jar"]
