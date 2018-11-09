@@ -49,13 +49,13 @@
                 <artifactId>docker-maven-plugin</artifactId>
                 <version>0.4.11</version>
                 <configuration>
-                    <imageName>jenkins/test</imageName>
+                    <imageName>jenkins/again</imageName>
                     <imageTags>
                         <imageTag>${project.version}</imageTag>
                         <imageTag>latest</imageTag>
                     </imageTags>
                     <dockerDirectory>src/main/docker</dockerDirectory>
-                    <dockerHost>http://192.168.109.109:2375</dockerHost>
+                    <dockerHost>http://192.168.31.80:2375</dockerHost>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
