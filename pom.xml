@@ -55,7 +55,7 @@
                         <imageTag>latest</imageTag>
                     </imageTags>
                     <dockerDirectory>src/main/docker</dockerDirectory>
-                    <dockerHost>http://192.168.31.80:2375</dockerHost>
+                    <dockerHost>http://192.168.109.109:2375</dockerHost>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
@@ -63,6 +63,8 @@
                             <include>${project.build.finalName}.jar</include>
                         </resource>
                     </resources>
+                    <serverId>docker-hub</serverId>
+                    <registryUrl>https://index.docker.io/v1/</registryUrl>
                 </configuration>
             </plugin>
 
