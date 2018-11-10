@@ -55,7 +55,7 @@
                         <imageTag>latest</imageTag>
                     </imageTags>
                     <dockerDirectory>src/main/docker</dockerDirectory>
-                    <dockerHost>http://192.168.31.80:2375</dockerHost>
+                    <dockerHost>http://192.168.1.190:2375</dockerHost>
                     <resources>
                         <resource>
                             <targetPath>/</targetPath>
